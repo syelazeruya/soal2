@@ -1,6 +1,7 @@
 ## Revisi
 Kendala yang terjadi saat demo adalah tidak bisa menampilkan menu admin, sehingga diperlukan revisi untuk memperbaiki kode pada skrip login.sh
-\n Kesalahan sebelumnya terjadi karena kesalahan saat menuliskan fungsi yang seharusnya 'admin_menu', namun yang tertulis adalah 'admin_actions'.
+
+Kesalahan terjadi karena kesalahan saat menuliskan fungsi yang seharusnya 'admin_menu', namun yang tertulis adalah 'admin_actions'.
 <pre>
   check_credentials "$email" "$password"
         if [ $? -eq 0 ]; then
