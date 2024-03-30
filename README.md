@@ -9,7 +9,7 @@ Kesalahan terjadi karena kesalahan saat menuliskan fungsi yang seharusnya 'admin
 
             is_admin=$(grep "^$email:" users.txt | cut -d: -f6)
             if [ "$is_admin" == "admin" ]; then
-                admin_menu #Bagian yang diubah, sebelumnya adalah admin_actions
+                admin_menu     #Bagian yang diubah, sebelumnya adalah admin_actions
             else
                 echo "Login successful!"
                 echo "You don't have admin privileges. Welcome!"
